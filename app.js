@@ -27,7 +27,7 @@ const getMessages = async (topic) => {
             headers: {
               accept: 'application/json',
               'content-type': 'application/json',
-              authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDdkZTNjN2EtNTQyZS00MDg5LWE1NGQtZDNkZDFkZDFhNDE1IiwidHlwZSI6ImFwaV90b2tlbiJ9.CQo4MyJqIJXeBTkpwnDJCYE0ZLWgunums_42xvrXYAc'
+              authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiN2JhMzAxNjUtZWVhOC00NmRlLThhYzItZDA5ODMyMTg2YWJmIiwidHlwZSI6ImFwaV90b2tlbiJ9.OTEiA8C30I112gCXlmWSw912B02LGHgL8PW1gq7w_ss'
             },
             body: JSON.stringify({
               response_as_dict: true,
@@ -70,7 +70,7 @@ const getImages = async () => {
                 headers: {
                     accept: 'application/json',
                     'content-type': 'application/json',
-                    authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDdkZTNjN2EtNTQyZS00MDg5LWE1NGQtZDNkZDFkZDFhNDE1IiwidHlwZSI6ImFwaV90b2tlbiJ9.CQo4MyJqIJXeBTkpwnDJCYE0ZLWgunums_42xvrXYAc",
+                    authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiN2JhMzAxNjUtZWVhOC00NmRlLThhYzItZDA5ODMyMTg2YWJmIiwidHlwZSI6ImFwaV90b2tlbiJ9.OTEiA8C30I112gCXlmWSw912B02LGHgL8PW1gq7w_ss",
                 },
                 body: JSON.stringify({
                     show_original_response: false,
