@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 3, 114);
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 10w;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+header {
+    color: rgb(255,255,255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 50px;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38,57,77) 0 20px 30px -10px;
+    box-sizing: border-box;
+}
+
+#submit-icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.record-section {
+    color: rgb(255,255,255);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+.history-container {
+    width: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(77, 51, 38) 0 20px 30px -10px;
+    color: rgb(255,255,255);
+}
+
+.image-section {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.image-container {
+    width: 25%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(38, 57,77) 0 20px 30px -10px;
+    color: rgb(255,255,255);
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.loading-spinner {
+    border: 8px solid rgba(20, 7, 7, 0.424);
+    border-left-color: rgb(231, 132, 132);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-spinner.hidden {
+    display: none;
+}
