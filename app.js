@@ -8,7 +8,7 @@ const imageSection = document.querySelector('.image-section');
 const loadingSpinner = document.querySelector('#loading-spinner')
 
 
-const apiKey = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiM2I5MTFjNWQtZDJmZS00OTg0LWE5YjQtMzllN2U0ODEzYjhhIiwidHlwZSI6ImFwaV90b2tlbiJ9.zj4wnpATZ2Fph2IoO3XrweberwLhF8mDEEQv-RbPkGE";
+const apiKey = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzY4YmY0MTMtYmY4My00ZWRmLWFlZWYtMTU4NmI5NGJhMzM4IiwidHlwZSI6ImFwaV90b2tlbiJ9.Ik_UA4VGVEZ184hdxCCCle036OGu95l9NrXvZi54IZw";
 
 function showLoadingSpinner() {
     loadingSpinner.classList.remove('hidden');
