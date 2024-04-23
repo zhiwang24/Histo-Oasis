@@ -58,20 +58,12 @@ input {
 
 .record-section {
     color: rgb(255,255,255);
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
     font-family: 'Trebuchet MS', sans-serif;
-
-}
-.history-container {
-    width: 10%;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: rgb(77, 51, 38) 0 20px 30px -10px;
-    color: rgb(255,255,255);
 }
 
 .image-section {
@@ -79,7 +71,7 @@ input {
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 10px;
 }
 
@@ -112,3 +104,62 @@ input {
 .loading-spinner.hidden {
     display: none;
 }
+
+.console-section {
+    color: rgb(255,255,255);
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #d56a4a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    background-color: #a03e26; 
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+}  
